@@ -1,9 +1,8 @@
 var canvas;
-var backgroundImage;
 var bgImg;
 var database;
-var form, player;
-var playerCount;
+
+
 
 function preload() {
   bgImg = loadImage("./assets/background.png");
@@ -12,8 +11,7 @@ function preload() {
 function setup() {
   canvas = createCanvas(windowWidth-1, windowHeight-1);
   database = firebase.database();
-  game = new Game();
-  game.start();
+ 
   
 }
 
