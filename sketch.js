@@ -10,7 +10,7 @@ function preload() {
 
 function setup() {
   canvas = createCanvas(windowWidth-1, windowHeight-1);
-  database = firebase.database();
+  //database = firebase.database();
  
   
 }
